@@ -1,22 +1,24 @@
 const fillers = {
-    adventurer: ["My dude", "Bro", "Adventurer", "Traveller", "Fellow", "Citizen", "Ashen One", "Dragonborn", "Cool person", "Tarnished", "$adventurer and $adventurer", "$adventurer, $adventurer, and $adventurer", "Geoff"],
+    hello: ["Hello", "Hi", "Greetings", "你好", "How are you", "What is going on", "What's up", "Yo"],
+    adventurer: ["my dude", "bro", "兄弟", "大哥", "fellow", "my guy", "man", "guardian", "people", "madam", "sir", "$adventurer and $adventurer", "$adventurer, $adventurer, and $adventurer", "Geoff"],
+    day: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "nice day", "big day"],
     pre: ["Fra", "Tro", "Gre", "Pan", "Ast", "Ara"],
     post: ["gria", "ston", "gott","-on-the-lee", "ora", "Ara", "uwu"],
-    people: ["kindly", "meek", "brave", "wise", "sacred", "cherished", "honored", "forgotten", "apathetic", "mystic", "orca"],
+    what: ["dangerous", "scary", "difficult", "important", "easy","honored", "forgotten","mystic"],
     item: ["axe", "staff", "book", "cloak", "shield", "club", "sword", "magic gloves", "galvel", "fists", "mace", "potato"],
-    num: ["two", "three", "eleven", "so many", "too many", "an unsatisfying number of", "barely any", "an unspecified amount of", "surely a satisfactory number of"],
+    num: ["two", "three", "eleven", "so many", "too many", "an unsatisfying number of", "barely any", "an unspecified amount of", "surely a satisfactory number of", "one", "few", "一点点", "a little"],
     looty: ["gleaming", "valuable", "esteemed", "rare", "exalted", "scintillating", "kinda gross but still usefull", "complete garbage"],
-    loots: ["coins", "chalices", "ingots", "hides", "victory points", "gems","scrolls", "bananas", "noodles", "goblins", "CS Majors", "college credits"],
-    baddies: ["orcs", "glubs", "fishmen", "cordungles", "mountain trolls", "college professors", "dragon", "evil $adventurer", "agents of chaos"],
-    message: ["call", "txt", "post", "decree", "shoutz", "tweets", "choiche", "hearkens", "harkening", "harkenening", "harkenenening", "...wait, no! Come back", "Watermelon"],
+    loots: ["coins", "chalices", "ingots", "hides", "victory points", "gems","scrolls", "bananas", "noodles", "goblins", "CS Majors", "college credits", "bottle of water"],
+    baddies: ["orcs", "glubs", "fishmen", "cordungles", "mountain trolls", "college professors", "dragon", "evil $adventurer", "agents of chaos", "game designers"],
+    do:["pet a dog, because they never had a dog", "build a school", "learn how to cook", "read a book", "study in CMPM 147", "起飞", "do nothing", "design a game"],
     
   };
   
-  const template = `$adventurer, heed my $message!
+  const template = `$hello, $adventurer, it is $day today,
   
-  I have just come from $pre$post where the $people folk are in desperate need. Their town has been overrun by $baddies. You must venture forth at once, taking my $item, and help them.
+  I have to announce you that, I come from $pre$post and I am here to give you a $what mission. You need to go to my town, and find the %baddies, and help them to $do.
   
-  It is told that the one who can rescue them will be awarded with $num $looty $loots. Surely this must tempt one such as yourself!
+  Once you finished the job, you will be awarded with $num $looty $loots. JUST DO IT $adventurer!
   `;
   
   
